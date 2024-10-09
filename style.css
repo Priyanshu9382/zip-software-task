@@ -1,0 +1,349 @@
+/*Universal css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    color: black;
+}
+/* css for body */
+body{
+    background-color: white;
+    
+}
+/* css for .navbar */
+.navbar{
+    height: 60px;
+    justify-content: space-between;
+}
+.navbar-left{
+    width: 20vw;
+    padding: 10px 20px;
+}
+.navbar-right{
+    width: 40vw;
+    gap: 60px;
+    padding: 11px 21px;
+}
+.navbar-links{
+    text-decoration: none;
+    font-size: larger;
+}
+#hamburger, .hamburger-icon{
+    position: absolute;
+    left: -500%;
+}
+.hamburger{
+    min-height: 100vh;    
+    position: absolute;
+    left: -500%;
+    z-index: 1;
+    background-color: white;
+    min-width: 200px;
+    transition: 0.3s;
+}
+.header{
+    font-size: larger;
+    background-color:rgb(145, 217, 235) ;
+    padding: 20px 10px;
+    color: #383835;
+    gap: 40px;
+}
+.hamburger a{
+    padding: 9px 0 0 8px;
+    text-decoration: none;
+}
+/* css for main container  */
+.container{
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(220 241 246);
+}
+/* css for first interface */
+.web-intro{
+    width: 100vw;
+    min-height: 500px;
+    background: linear-gradient(to right, #003c43, #77b0aa);
+}
+/* css for left box  */
+.web-intro-left{
+    width: 50vw;
+    flex-direction: column;
+    gap: 15px;
+}
+.web-intro-heading{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 51px;
+
+}
+.web-intro-para{
+    margin-left: 51px;
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 2;
+}
+.text >div > *{
+    color: white;
+
+}
+
+.text > *{
+    color: white;
+}
+.explore{
+    margin-right: auto;
+    margin-left: 50px
+}
+.explore-btn{
+    background-color: #79A8A9;
+    width: 162px;
+    height: 52px;
+    border-radius: 11px;
+    font-size: 17px;
+}
+/* css for right box  */
+.web-intro-right{
+    width: 50vw;
+}
+#doc-img{
+    width: 440px
+}
+/* css for second container  */
+.container2{
+    flex-direction: column;
+    gap: 10px;
+}
+.services{
+    gap: 20px;
+}
+#book-appointment ,#medical-records{
+    margin: 30px 0px;
+    width: 300px;
+    height: 63px;
+    font-size: larger;
+    background-color: rgb(30 64 175);
+    border-radius: 9px;
+    color: white;
+}
+.line{
+    width: 90vw;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.about-product{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.heading{
+    flex-wrap: wrap;
+}
+.heading span{
+    font-size: 3.5rem;
+    font-weight: 400;
+    padding: 14px 14px;
+    margin: 60px 60px;
+    color: rgb(23 37 84);
+    text-align: center;
+    line-height: 1;
+}
+.about-product-details-container-left{
+    width: 40%;
+}
+.about-product-details-container-right{
+    width: 50%;
+    gap: 20px;
+}
+.info-card{
+    width: 80%;
+    padding: 10px;
+    gap: 4px;
+    border-bottom: 1.5px solid rgb(128, 128, 128);
+}
+.info-card .heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(30 64 175);
+}
+.info-card .details{
+    color: rgb(75 85 99 );
+    line-height: 1.4;
+    font-size: 1.05rem;
+}
+.about-product-modules{
+    padding: 60px 0px;
+}
+.about-product-service-modules{
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 40%;
+    justify-content: flex-start;
+}
+.card{
+    background-color: #faf5f5;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    gap: 8px;
+    padding: 13px;
+}
+.icon{
+    font-size: xx-large;
+}
+.name{
+    font-size: medium;
+}
+.card .name{
+    color: rgb(107 114 128);
+}
+.card .heading{
+    font-size: larger;
+    color: rgb(37 99 235 );
+}
+.card .details{
+    color: rgb(75 85 99);
+}
+.about-product-software-modules{
+    width: 40%;
+    gap: 10px;
+    margin-left: 50px;
+}
+.about-product-software-modules .heading{
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+.about-product-software-modules .details{
+    font-size: larger;
+    line-height: 1.3;
+    color: rgb(55 65 81);
+}
+.viewall{
+    margin: 30px 0px;
+    width: 186px;
+    height: 60px;
+    font-size: larger;
+    background-color: rgb(37 99 235);
+    border-radius: 13px;
+    color: white;
+}
+/* css for footer  */
+.footer{
+    background: linear-gradient(to right, #003c43, #77b0aa);
+    justify-content: space-around;
+    min-height: 270px;
+}
+.icon-container{
+    gap: 8px;
+}
+.heading{
+    font-weight: 600;
+}
+.implinks{
+    margin-top: 60px ;
+    gap: 15px;
+}
+.implinks li{
+    color: white;
+    list-style: none;
+    gap: 4px;
+}
+button, a{
+    cursor: pointer;
+}
+li{
+    cursor: pointer;
+}
+
+@media (max-width: 1000px)
+{
+    .navbar{
+        justify-content: flex-start;
+        gap: 3vw;
+    }
+    .web-intro-heading{
+        margin: 0px 0px 0px 25px;
+        font-size: 2.5em;
+    }
+    .web-intro-para{
+        margin-left: 25px;
+    }
+    .explore{
+        margin-left: 25px;
+    }
+    .navbar-links{
+        transform: scale(0.85);
+    }
+    .media-column{
+        flex-direction: column;
+    }
+    .web-intro-left{
+        width: 100vw;
+        margin: 50px 0px ;
+    }
+    .web-intro-right{
+        width: 100vw;
+        margin: 0px 0px 50px;
+    }
+}
+
+@media(max-width:650px){
+    #hamburger, .hamburger-icon{
+        left: 0;
+        position: static;
+    }
+    .navbar-right,.navbar-links{
+        position: absolute;
+        display: none;
+    }
+    #book-appointment ,#medical-records{
+        width: 40vw;
+        font-size: medium;
+    }
+    .heading span{
+        font-size: 2.5em;
+    }
+    .phone-column{
+        flex-direction: column;
+    }
+    .about-product-details-container-left, .about-product-details-container-right{
+        width: 100%;
+    }
+    .about-product-service-modules {
+        width: 100%;
+        margin: 50px 0px;
+    }
+    .about-product-software-modules{
+        width: 80%;
+    }
+    .phone-justify{
+        justify-content: center;
+    }
+    #doc-img{
+        width: 90%
+    }
+    .footer>*{
+        transform: scale(0.75);
+    }
+    .implinks{
+        margin-top: 25px;
+    }
+    .implinks li{
+        font-size: 1em;
+    }
+}
+@media(max-width:350px)
+{
+    .implinks li{
+        font-size: 0.8em;
+    }
+    .small-phone-column{
+        flex-direction: column;
+    }
+}
